@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+name = "metadata_poc"
+description = "PoC for metadata bug"
+license = {file = "license.txt"}
+version = "0.0.1"
+dependencies = [
+     "requests",
+]
